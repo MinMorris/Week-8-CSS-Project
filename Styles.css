@@ -1,0 +1,134 @@
+body {
+    background-color: #FFFAF0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Here I changed the backgound of each page to an off white color and centered everything */
+
+
+h1 {
+font-family: Lucida;
+color: #C08081;
+}
+/* This changes the h1 heading color and font style */
+
+
+div {
+    font-family: Lucida;
+    height: 200px;
+	width: 200px;
+    font-size: 17px;
+}
+/* This changes the font style, font size, and position of the Home, About, & Contact links at the top of each page */
+
+
+a { 
+    color: #C08081; 
+}
+/* This makes all links the color mauve */
+
+
+a:hover {
+    color: black;
+  }
+/* This changes all links to black when you hover over them with the mouse */
+
+
+img {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #C08081; 
+    margin-top: -50px
+
+}
+/* This creates a mauve border around all images */
+
+
+#p1 {
+    font-size: 30px;
+    font-family: Lucida;
+    color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #C08081; 
+}
+/* This p1 id changes the font size, style, color, and adds a border around the paragraph at the bottom of the Home page */
+
+
+h2 {
+    font-size: 35px;
+    font-family: Lucida;
+    color: #C08081; 
+}
+/* This changes the font size, font family, and color of the h2 heading */
+
+
+#p2 {
+    font-size: 25px;
+    font-family: Lucida;
+    color: black;
+    margin-top: -20px;
+}
+/* This p2 id changes the font size, font family, color, and margin of the 1st paragraph on the About page */
+
+
+.whyshopwithus {
+    text-align: left;
+    font-family: Lucida;
+    padding: 5%
+}
+/* This whyshopwithus class changes the alignment, font family, and padding of the entire table on the About page */
+
+
+.whyshopwithus > ul {
+    display: inlign-block;
+    font-family: Lucida;
+    margin: -16%;
+    font-size: 18px;
+}
+/* This makes the bullet points align with the rest of the text for the whyshopwithus class */
+
+
+#p3 {
+    font-size: 30px;
+    font-family: Lucida;
+    color: black;
+    margin-top: -50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #C08081;
+}
+/* This changes the font size, font family, color, margin, & border of the 2nd paragraph on the About page for the p3 id */
+
+
+table {
+    font-family: Lucida;
+    margin-top: -70px;
+}
+/* This changes the font family and margin of the entire table on the Contact page */
+
+
+th {
+    font-size: 20px;
+}
+/* This changes the font size of the th element in the table */
+
+
+tr {
+    font-size: 20px;
+}
+/* This changes the font size of the tr element in the table */
+
+
+form {
+    font-family: Lucida;
+    margin-top: 100px;
+}
+/* This changes the font family and margin of the entire form on the Contact page */
+
+
+.shadow-text {
+    text-shadow: black 10px 10px;
+    }
+/* This creates a black shadow over each box in the form when it's clicked on */
